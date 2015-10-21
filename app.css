@@ -5,3 +5,46 @@
   border-image:
       linear-gradient(to bottom, #575bb4, #8e92f5) 1 100%;
 }
+
+ul {
+  width: 400px;
+  left: 20%;
+  border-radius: 3%;
+  background: #7ec2e0;
+  color: #ffffff;
+  font-family:sans-serif;
+
+}
+
+hr {
+  color: #fff;
+}
+
+.date, .time {
+  position: absolute;
+  right: 70%;
+}
+
+.fa-mobile{
+  background-color: #246ce2;
+  border-radius: 50%;
+  border: 3px #7ec2e0 solid;
+  position: absolute;
+
+
+  color: #7ec2e0;
+}
+
+.date {
+  color: #eee;
+  font-size: .5em;
+}
+
+.time {
+  color: #7ec2e0;
+  font-size: 2em;
+}
+
+.description-box {
+
+}
