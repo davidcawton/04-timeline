@@ -1,16 +1,16 @@
+
+
 .timeline {
+  border-radius: 3%;
+  position: relative;
+  width: 600px;
   list-style: none;
   margin-left: 200px;
+  border: 0;
   border-left: #575bb4 solid 4px;
   border-image:
-      linear-gradient(to bottom, #575bb4, #8e92f5) 1 100%;
-}
+    linear-gradient(to bottom, #575bb4, #8e92f5) 1 100%;
 
-ul {
-  width: 400px;
-  left: 20%;
-  border-radius: 3%;
-  background: #7ec2e0;
   color: #ffffff;
   font-family:sans-serif;
 
@@ -22,7 +22,7 @@ hr {
 
 .date, .time {
   position: absolute;
-  right: 70%;
+  right: 103%;
 }
 
 .fa-mobile{
@@ -30,8 +30,7 @@ hr {
   border-radius: 50%;
   border: 3px #7ec2e0 solid;
   position: absolute;
-
-
+  right: 100%;
   color: #7ec2e0;
 }
 
@@ -46,5 +45,5 @@ hr {
 }
 
 .description-box {
-
+  background: #7ec2e0;
 }
