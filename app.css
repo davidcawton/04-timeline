@@ -23,7 +23,7 @@ hr {
   color: #fff;
 }
 
-.date, .time {
+.date, .time, i {
   position: absolute;
   right: 106%;
   top: 12pt;
@@ -43,8 +43,8 @@ hr {
 .fa-mobile, .fa-desktop, .fa-tablet {
   width: 30px;
   height: 30px;
-  position: absolute;
-  right: 97.2%;
+  right: 97%;
+  top: 0;
   text-align: center;
   line-height: 30px;
   border-radius: 50%;
