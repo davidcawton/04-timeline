@@ -1,19 +1,22 @@
 
 
 .timeline {
-  border-radius: 3%;
   position: relative;
-  width: 600px;
+  width: 500px;
+  height: 250px;
   list-style: none;
   margin-left: 200px;
+  margin-bottom: 0;
+  margin-top: 0;
   border: 0;
-  border-left: #575bb4 solid 4px;
-  border-image:
-    linear-gradient(to bottom, #575bb4, #8e92f5) 1 100%;
-
+  border-left: #7ec2e0 solid 4px;
   color: #ffffff;
   font-family:sans-serif;
 
+}
+
+h1 {
+  margin-top: 5px;
 }
 
 hr {
@@ -22,28 +25,68 @@ hr {
 
 .date, .time {
   position: absolute;
-  right: 103%;
+  right: 106%;
+  top: 12pt;
 }
 
 .fa-mobile{
+  width: 30px;
+  height: 30px;
+  text-align: center;
   background-color: #246ce2;
   border-radius: 50%;
   border: 3px #7ec2e0 solid;
   position: absolute;
-  right: 100%;
+  right: 97.2%;
   color: #7ec2e0;
+  font-size: 2em;
+}
+
+.fa-desktop {
+  font-size: 1em;
+}
+
+.fa-tablet {
+  font-size: 1.7em;
+
+}
+.fa-desktop, .fa-tablet{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background-color: #7ec2e0;
+  border-radius: 50%;
+  border: 3px #246ce2 solid;
+  position: absolute;
+  right: 97.2%;
+  color: #246ce2;
 }
 
 .date {
-  color: #eee;
+  color: #d6d3d3;
   font-size: .5em;
 }
 
 .time {
   color: #7ec2e0;
   font-size: 2em;
+  margin-top: 20px;
 }
 
 .description-box {
   background: #7ec2e0;
+  border-radius: 2%;
+  padding: 10px;
+}
+
+.description {
+  font-size: 1em;
+}
+
+#time-two {
+  color: #246ce2;
+}
+
+#box-two {
+  background-color: #246ce2;
 }
