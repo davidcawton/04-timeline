@@ -33,6 +33,7 @@ hr {
   width: 30px;
   height: 30px;
   text-align: center;
+  line-height: 30px;
   background-color: #246ce2;
   border-radius: 50%;
   border: 3px #7ec2e0 solid;
@@ -44,10 +45,12 @@ hr {
 
 .fa-desktop {
   font-size: 1em;
+  line-height: 30px;
 }
 
 .fa-tablet {
-  font-size: 1.7em;
+  font-size: 1.5em;
+  line-height: 30px;
 
 }
 .fa-desktop, .fa-tablet{
