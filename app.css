@@ -3,7 +3,6 @@
 .timeline {
   position: relative;
   width: 500px;
-  height: 250px;
   margin-left: 200px;
   margin-bottom: 0;
   margin-top: 0;
@@ -79,6 +78,8 @@ hr {
 
 .description {
   font-size: 1em;
+  margin-bottom: 10px;
+
 }
 
 #time-two {
