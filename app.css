@@ -1,12 +1,13 @@
 
 
-.timeline {
+.timeline__ul {
   position: relative;
   width: 500px;
   margin-left: 200px;
   margin-bottom: 0;
-  margin-top: 0;
   border: 0;
+  margin-top: 0;
+  padding-top: 5px;
   border-left: #7ec2e0 solid 4px;
   list-style: none;
   color: #ffffff;
@@ -22,18 +23,18 @@ hr {
   color: #fff;
 }
 
-.date, .time, i {
+.timeline__date, .timeline__time, i {
   position: absolute;
   right: 106%;
   top: 12pt;
 }
 
-.date {
+.timeline__date {
   color: #d6d3d3;
   font-size: .5em;
 }
 
-.time {
+.timeline__time {
   color: #7ec2e0;
   font-size: 2em;
   margin-top: 20px;
@@ -70,13 +71,13 @@ hr {
   color: #7ec2e0;
 }
 
-.description-box {
+.timeline__description-box {
   background: #7ec2e0;
   border-radius: 2%;
   padding: 10px;
 }
 
-.description {
+.timeline__description-graph {
   font-size: 1em;
   margin-bottom: 10px;
 
